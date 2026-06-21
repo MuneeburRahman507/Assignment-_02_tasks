@@ -139,5 +139,6 @@ The K-Means algorithm successfully grouped customers based on spending patterns 
 
 ## AUTHOR 
 Muneeb ur Rahman
+Data Science & Analytics Internship Tasks DevelopersHub Corporation
 
 
