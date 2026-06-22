@@ -29,7 +29,7 @@ The dataset contains customer information such as:
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 * Python
 * Pandas
@@ -42,7 +42,7 @@ The dataset contains customer information such as:
 
 ---
 
-## 📊 Project Workflow
+##  Project Workflow
 
 ### 1. Data Loading and Exploration
 
@@ -105,10 +105,30 @@ SHAP (SHapley Additive Explanations) was used to:
 
 ## Visualizations Included
 
-* Target Variable Distribution
-* Correlation Heatmap
-* Confusion Matrix
-* ROC Curve
+## Target Variable Distribution
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/2f7b2f7c-87a9-433e-b6cc-4482882cbb9e" />
+
+## observation
+The target variable appears imbalanced, with more customers not subscribing than subscribing.
+
+## Correlation Heatmap
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/52eb0e81-250f-4ccc-b0f5-221a26dea602" />
+
+## Observation
+The heatmap helps identify relationships between features and highlights variables that may influence subscription behavior.
+
+## Confusion Matrix
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/537f6acf-8d3e-4aee-8493-000fac723558" />
+
+## Observation
+The confusion matrix shows the number of correctly and incorrectly classified customers.
+
+## ROC Curve
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/678935b2-2477-4798-aa53-30458bcad4d6" />
+
+## Observation
+The ROC curve illustrates the model's ability to distinguish between subscribing and non-subscribing customers. A larger AUC indicates better performance.
+
 * SHAP Summary Plot
 * SHAP Individual Prediction Explanations
 
